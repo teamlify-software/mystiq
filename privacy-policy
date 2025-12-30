@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystiq - Gizlilik Politikası / Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1A202C;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #6B46C1 0%, #2D3748 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .language-toggle {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #F7FAFC;
+            border-radius: 12px;
+        }
+
+        .language-toggle button {
+            padding: 12px 30px;
+            margin: 0 10px;
+            font-size: 16px;
+            font-weight: 600;
+            border: 2px solid #6B46C1;
+            background: white;
+            color: #6B46C1;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .language-toggle button.active {
+            background: #6B46C1;
+            color: white;
+        }
+
+        .language-toggle button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(107, 70, 193, 0.3);
+        }
+
+        .language-section {
+            display: none;
+        }
+
+        .language-section.active {
+            display: block;
+        }
+
+        h2 {
+            color: #6B46C1;
+            font-size: 1.8em;
+            margin: 30px 0 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #F6AD55;
+        }
+
+        h3 {
+            color: #2D3748;
+            font-size: 1.3em;
+            margin: 25px 0 12px 0;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #4A5568;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 15px 0 15px 30px;
+            color: #4A5568;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            line-height: 1.7;
+        }
+
+        .highlight-box {
+            background: #F7FAFC;
+            border-left: 4px solid #6B46C1;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .contact-info {
+            background: linear-gradient(135deg, #6B46C1 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .contact-info h3 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            color: white;
+            margin: 10px 0;
+        }
+
+        .contact-info a {
+            color: #F6AD55;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: #2D3748;
+            color: white;
+        }
+
+        .footer p {
+            color: white;
+            margin: 5px 0;
+        }
+
+        .update-date {
+            text-align: center;
+            color: #718096;
+            font-style: italic;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+
+        strong {
+            color: #2D3748;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 25px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .language-toggle button {
+                padding: 10px 20px;
+                font-size: 14px;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔮 Mystiq</h1>
+            <p>Gizlilik Politikası / Privacy Policy</p>
+        </div>
+
+        <div class="content">
+            <div class="language-toggle">
+                <button id="btn-tr" class="active" onclick="showLanguage('tr')">🇹🇷 Türkçe</button>
+                <button id="btn-en" onclick="showLanguage('en')">🇬🇧 English</button>
+            </div>
+
+            <!-- TÜRKÇE VERSİYON -->
+            <div id="content-tr" class="language-section active">
+                <p class="update-date"><strong>Son Güncelleme:</strong> 30 Aralık 2025</p>
+
+                <div class="highlight-box">
+                    <p><strong>Mystiq</strong> uygulamasını kullandığınız için teşekkür ederiz. Gizliliğiniz bizim için önemlidir. Bu gizlilik politikası, kişisel verilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.</p>
+                </div>
+
+                <h2>1. Sorumlu Veri İşleyen</h2>
+                <p><strong>Şirket Adı:</strong> Teamlify<br>
+                <strong>Adres:</strong> Istanbul, Turkey<br>
+                <strong>E-posta:</strong> support@mystiq.app<br>
+                <strong>Web Sitesi:</strong> https://mystiq.app</p>
+
+                <h2>2. Toplanan Veriler</h2>
+                
+                <h3>2.1. Kullanıcı Tarafından Sağlanan Veriler</h3>
+                <ul>
+                    <li><strong>E-posta Adresi:</strong> Hesap oluşturma ve kimlik doğrulama için (opsiyonel)</li>
+                    <li><strong>Ad ve Soyad:</strong> Kişiselleştirilmiş deneyim için (opsiyonel)</li>
+                    <li><strong>Doğum Tarihi, Saati ve Yeri:</strong> Astroloji analizleri için</li>
+                    <li><strong>Fotoğraflar:</strong> Kahve falı analizi için fincan fotoğrafları</li>
+                    <li><strong>Ses Kayıtları:</strong> Nefes tespiti özelliği için (sadece gerektiğinde, kaydedilmez)</li>
+                </ul>
+
+                <h3>2.2. Otomatik Olarak Toplanan Veriler</h3>
+                <ul>
+                    <li><strong>Cihaz Bilgileri:</strong> Model, işletim sistemi, uygulama sürümü</li>
+                    <li><strong>Kullanım Verileri:</strong> Özellik kullanımı, oturum süreleri, etkileşimler</li>
+                    <li><strong>Teknik Veriler:</strong> IP adresi, dil tercihi, saat dilimi</li>
+                    <li><strong>Çökme Raporları:</strong> Uygulama hataları ve performans verileri</li>
+                    <li><strong>Analytics Verileri:</strong> Anonim kullanım istatistikleri (Firebase Analytics)</li>
+                </ul>
+
+                <h2>3. Verilerin Kullanım Amaçları</h2>
+                <ul>
+                    <li><strong>Hizmet Sağlama:</strong> Tarot, kahve falı, astroloji ve rüya yorumu hizmetlerini sunmak</li>
+                    <li><strong>Kişiselleştirme:</strong> Kullanıcı deneyimini özelleştirmek ve iyileştirmek</li>
+                    <li><strong>Kimlik Doğrulama:</strong> Hesap güvenliği ve erişim kontrolü</li>
+                    <li><strong>İletişim:</strong> Önemli bildirimler, güncellemeler ve destek</li>
+                    <li><strong>Analiz:</strong> Uygulama performansını izlemek ve iyileştirmek</li>
+                    <li><strong>Ödeme İşlemleri:</strong> Premium abonelik ve satın alımları yönetmek</li>
+                    <li><strong>Yasal Yükümlülükler:</strong> Yasal gereksinimlere uyum</li>
+                </ul>
+
+                <h2>4. Veri Paylaşımı</h2>
+                
+                <h3>4.1. Üçüncü Taraf Hizmet Sağlayıcılar</h3>
+                <ul>
+                    <li><strong>Firebase (Google):</strong> Kimlik doğrulama, veritabanı, analytics ve cloud functions</li>
+                    <li><strong>Google Cloud Platform:</strong> Yapay zeka ve görüntü analizi hizmetleri</li>
+                    <li><strong>Ödeme Sağlayıcıları:</strong> App Store (Apple), Google Play (Google) abonelik yönetimi</li>
+                </ul>
+
+                <h3>4.2. Veri Paylaşım İlkeleri</h3>
+                <p>Verileriniz yalnızca aşağıdaki durumlarda üçüncü taraflarla paylaşılır:</p>
+                <ul>
+                    <li>Açık onayınız ile</li>
+                    <li>Yasal zorunluluklar gereği</li>
+                    <li>Hizmet sağlayıcılar ile (sadece hizmet sunumu için gerekli olan veriler)</li>
+                    <li>Şirket birleşme veya satın alma durumlarında</li>
+                </ul>
+
+                <p><strong>Önemli Not:</strong> Verilerinizi asla pazarlama amacıyla üçüncü taraflara satmıyoruz veya kiralamıyoruz.</p>
+
+                <h2>5. Veri Güvenliği</h2>
+                <p>Verilerinizi korumak için endüstri standardı güvenlik önlemleri kullanıyoruz:</p>
+                <ul>
+                    <li><strong>Şifreleme:</strong> Tüm iletişimler SSL/TLS şifreleme ile korunur</li>
+                    <li><strong>Güvenli Depolama:</strong> Veriler Firebase'in güvenli sunucularında saklanır</li>
+                    <li><strong>Erişim Kontrolü:</strong> Sınırlı personel erişimi ve kimlik doğrulama</li>
+                    <li><strong>Düzenli Denetim:</strong> Güvenlik açıklarını tespit etmek için düzenli kontroller</li>
+                    <li><strong>Veri Minimizasyonu:</strong> Sadece gerekli verileri topluyoruz</li>
+                </ul>
+
+                <h2>6. Veri Saklama Süresi</h2>
+                <ul>
+                    <li><strong>Hesap Verileri:</strong> Hesap aktif olduğu sürece</li>
+                    <li><strong>Kullanım Verileri:</strong> 24 ay</li>
+                    <li><strong>Fotoğraflar (Kahve Falı):</strong> Analiz sonrası 30 gün (kullanıcı silebilir)</li>
+                    <li><strong>Analytics Verileri:</strong> Anonim, 14 ay</li>
+                    <li><strong>Çökme Raporları:</strong> 90 gün</li>
+                </ul>
+
+                <h2>7. Kullanıcı Hakları (GDPR & KVKK)</h2>
+                <p>GDPR ve KVKK kapsamında aşağıdaki haklara sahipsiniz:</p>
+                <ul>
+                    <li><strong>Erişim Hakkı:</strong> Hangi verilerinizin toplandığını öğrenme</li>
+                    <li><strong>Düzeltme Hakkı:</strong> Yanlış verileri düzeltme</li>
+                    <li><strong>Silme Hakkı:</strong> Verilerinizin silinmesini talep etme (unutulma hakkı)</li>
+                    <li><strong>İşleme Kısıtlama:</strong> Veri işlemeyi sınırlama</li>
+                    <li><strong>Veri Taşınabilirliği:</strong> Verilerinizi yapılandırılmış formatta alma</li>
+                    <li><strong>İtiraz Hakkı:</strong> Veri işlemeye itiraz etme</li>
+                    <li><strong>Otomatik Karar Vermeye İtiraz:</strong> Otomatik işlemlere itiraz etme</li>
+                </ul>
+
+                <p>Bu haklarınızı kullanmak için <strong>support@mystiq.app</strong> adresine e-posta gönderebilirsiniz.</p>
+
+                <h2>8. Çerezler ve İzleme Teknolojileri</h2>
+                <p>Uygulama aşağıdaki teknolojileri kullanır:</p>
+                <ul>
+                    <li><strong>Oturum Çerezleri:</strong> Kullanıcı oturumunu yönetmek için</li>
+                    <li><strong>Analytics Çerezleri:</strong> Kullanım verilerini toplamak için (anonim)</li>
+                    <li><strong>Tercih Çerezleri:</strong> Dil ve tema tercihlerini kaydetmek için</li>
+                </ul>
+
+                <h2>9. Çocukların Gizliliği</h2>
+                <p>Mystiq, 13 yaşın altındaki çocuklardan bilerek veri toplamaz. Ebeveyn veya vasi iseniz ve çocuğunuzun bize kişisel bilgi verdiğini fark ederseniz, lütfen bizimle iletişime geçin.</p>
+
+                <h2>10. Uluslararası Veri Transferi</h2>
+                <p>Verileriniz, Firebase ve Google Cloud Platform aracılığıyla ABD ve AB dahil olmak üzere çeşitli ülkelerdeki sunucularda işlenebilir. Tüm transferler, GDPR ve ilgili veri koruma yasalarına uygun olarak gerçekleştirilir.</p>
+
+                <h2>11. İzinler ve Erişim</h2>
+                <p>Uygulama aşağıdaki cihaz izinlerini talep eder:</p>
+                <ul>
+                    <li><strong>Kamera:</strong> Kahve falı için fincan fotoğrafı çekmek (opsiyonel)</li>
+                    <li><strong>Fotoğraf Kütüphanesi:</strong> Mevcut fotoğrafları yüklemek (opsiyonel)</li>
+                    <li><strong>Mikrofon:</strong> Nefes tespiti özelliği için (opsiyonel, kaydedilmez)</li>
+                    <li><strong>İnternet:</strong> Bulut hizmetlerine erişim için (gerekli)</li>
+                    <li><strong>Bildirimler:</strong> Hatırlatıcılar ve önemli güncellemeler için (opsiyonel)</li>
+                </ul>
+
+                <h2>12. Premium Abonelik ve Ödemeler</h2>
+                <p>Premium abonelik satın alımları:</p>
+                <ul>
+                    <li>Apple App Store veya Google Play Store üzerinden işlenir</li>
+                    <li>Ödeme bilgileri doğrudan bu platformlar tarafından yönetilir</li>
+                    <li>Mystiq, kredi kartı veya ödeme bilgilerinizi kaydetmez</li>
+                    <li>Abonelik yönetimi ve iptali platform ayarlarından yapılır</li>
+                    <li>İade politikası App Store ve Play Store kurallarına tabidir</li>
+                </ul>
+
+                <h2>13. Feragatname</h2>
+                <p class="highlight-box">
+                    <strong>Önemli:</strong> Mystiq uygulaması eğlence ve kişisel gelişim amaçlıdır. Tarot, astroloji, kahve falı ve rüya yorumları profesyonel tıbbi, psikolojik, hukuki veya finansal tavsiye yerine geçmez. Önemli kararlar için mutlaka uzman görüşü alınmalıdır.
+                </p>
+
+                <h2>14. Gizlilik Politikası Değişiklikleri</h2>
+                <p>Bu gizlilik politikası zaman zaman güncellenebilir. Önemli değişiklikler yapıldığında:</p>
+                <ul>
+                    <li>Uygulama içinde bildirim gösterilir</li>
+                    <li>E-posta ile bilgilendirilirsiniz (e-posta kaydı varsa)</li>
+                    <li>"Son Güncelleme" tarihi değiştirilir</li>
+                    <li>Değişiklikler bu sayfada yayınlanır</li>
+                </ul>
+
+                <h2>15. Yasal Dayanak</h2>
+                <p>Veri işleme faaliyetlerimiz aşağıdaki yasal dayanaklar üzerine kuruludur:</p>
+                <ul>
+                    <li><strong>Sözleşme:</strong> Hizmet sunumu için gerekli işlemler</li>
+                    <li><strong>Onay:</strong> Açık rızanızla yapılan işlemler</li>
+                    <li><strong>Meşru Menfaat:</strong> Hizmet iyileştirme ve güvenlik</li>
+                    <li><strong>Yasal Yükümlülük:</strong> Yasal gereksinimlere uyum</li>
+                </ul>
+
+                <div class="contact-info">
+                    <h3>📧 Bize Ulaşın</h3>
+                    <p>Gizlilik politikamız hakkında sorularınız için:</p>
+                    <p><strong>E-posta:</strong> <a href="mailto:support@mystiq.app">support@mystiq.app</a></p>
+                    <p><strong>Web Sitesi:</strong> <a href="https://mystiq.app">mystiq.app</a></p>
+                    <p><strong>Destek:</strong> <a href="https://mystiq.app/support">mystiq.app/support</a></p>
+                </div>
+            </div>
+
+            <!-- ENGLISH VERSION -->
+            <div id="content-en" class="language-section">
+                <p class="update-date"><strong>Last Updated:</strong> December 30, 2025</p>
+
+                <div class="highlight-box">
+                    <p><strong>Thank you for using Mystiq.</strong> Your privacy is important to us. This privacy policy explains how your personal data is collected, used, and protected.</p>
+                </div>
+
+                <h2>1. Data Controller</h2>
+                <p><strong>Company Name:</strong> Teamlify<br>
+                <strong>Address:</strong> Istanbul, Turkey<br>
+                <strong>Email:</strong> support@mystiq.app<br>
+                <strong>Website:</strong> https://mystiq.app</p>
+
+                <h2>2. Data Collection</h2>
+                
+                <h3>2.1. User-Provided Data</h3>
+                <ul>
+                    <li><strong>Email Address:</strong> For account creation and authentication (optional)</li>
+                    <li><strong>Name:</strong> For personalized experience (optional)</li>
+                    <li><strong>Birth Date, Time, and Location:</strong> For astrology analysis</li>
+                    <li><strong>Photos:</strong> Coffee cup images for fortune reading</li>
+                    <li><strong>Audio Recordings:</strong> For breath detection feature (temporary, not stored)</li>
+                </ul>
+
+                <h3>2.2. Automatically Collected Data</h3>
+                <ul>
+                    <li><strong>Device Information:</strong> Model, operating system, app version</li>
+                    <li><strong>Usage Data:</strong> Feature usage, session duration, interactions</li>
+                    <li><strong>Technical Data:</strong> IP address, language preference, timezone</li>
+                    <li><strong>Crash Reports:</strong> Application errors and performance data</li>
+                    <li><strong>Analytics Data:</strong> Anonymous usage statistics (Firebase Analytics)</li>
+                </ul>
+
+                <h2>3. Purpose of Data Processing</h2>
+                <ul>
+                    <li><strong>Service Provision:</strong> Deliver tarot, coffee fortune, astrology, and dream interpretation services</li>
+                    <li><strong>Personalization:</strong> Customize and improve user experience</li>
+                    <li><strong>Authentication:</strong> Account security and access control</li>
+                    <li><strong>Communication:</strong> Important notifications, updates, and support</li>
+                    <li><strong>Analytics:</strong> Monitor and improve app performance</li>
+                    <li><strong>Payment Processing:</strong> Manage premium subscriptions and purchases</li>
+                    <li><strong>Legal Compliance:</strong> Fulfill legal requirements</li>
+                </ul>
+
+                <h2>4. Data Sharing</h2>
+                
+                <h3>4.1. Third-Party Service Providers</h3>
+                <ul>
+                    <li><strong>Firebase (Google):</strong> Authentication, database, analytics, and cloud functions</li>
+                    <li><strong>Google Cloud Platform:</strong> AI and image analysis services</li>
+                    <li><strong>Payment Providers:</strong> App Store (Apple), Google Play (Google) for subscription management</li>
+                </ul>
+
+                <h3>4.2. Data Sharing Principles</h3>
+                <p>Your data is only shared with third parties in the following cases:</p>
+                <ul>
+                    <li>With your explicit consent</li>
+                    <li>As required by law</li>
+                    <li>With service providers (only data necessary for service delivery)</li>
+                    <li>In case of company merger or acquisition</li>
+                </ul>
+
+                <p><strong>Important:</strong> We never sell or rent your data to third parties for marketing purposes.</p>
+
+                <h2>5. Data Security</h2>
+                <p>We use industry-standard security measures to protect your data:</p>
+                <ul>
+                    <li><strong>Encryption:</strong> All communications protected with SSL/TLS encryption</li>
+                    <li><strong>Secure Storage:</strong> Data stored on Firebase's secure servers</li>
+                    <li><strong>Access Control:</strong> Limited personnel access and authentication</li>
+                    <li><strong>Regular Audits:</strong> Periodic security vulnerability assessments</li>
+                    <li><strong>Data Minimization:</strong> We only collect necessary data</li>
+                </ul>
+
+                <h2>6. Data Retention Period</h2>
+                <ul>
+                    <li><strong>Account Data:</strong> While account is active</li>
+                    <li><strong>Usage Data:</strong> 24 months</li>
+                    <li><strong>Photos (Coffee Fortune):</strong> 30 days after analysis (user can delete)</li>
+                    <li><strong>Analytics Data:</strong> Anonymous, 14 months</li>
+                    <li><strong>Crash Reports:</strong> 90 days</li>
+                </ul>
+
+                <h2>7. User Rights (GDPR)</h2>
+                <p>Under GDPR, you have the following rights:</p>
+                <ul>
+                    <li><strong>Right of Access:</strong> Know what data is collected about you</li>
+                    <li><strong>Right to Rectification:</strong> Correct inaccurate data</li>
+                    <li><strong>Right to Erasure:</strong> Request deletion of your data (right to be forgotten)</li>
+                    <li><strong>Right to Restriction:</strong> Limit data processing</li>
+                    <li><strong>Right to Data Portability:</strong> Receive your data in structured format</li>
+                    <li><strong>Right to Object:</strong> Object to data processing</li>
+                    <li><strong>Rights Related to Automated Decision-Making:</strong> Object to automated processing</li>
+                </ul>
+
+                <p>To exercise these rights, email us at <strong>support@mystiq.app</strong></p>
+
+                <h2>8. Cookies and Tracking Technologies</h2>
+                <p>The app uses the following technologies:</p>
+                <ul>
+                    <li><strong>Session Cookies:</strong> To manage user sessions</li>
+                    <li><strong>Analytics Cookies:</strong> To collect usage data (anonymous)</li>
+                    <li><strong>Preference Cookies:</strong> To save language and theme preferences</li>
+                </ul>
+
+                <h2>9. Children's Privacy</h2>
+                <p>Mystiq does not knowingly collect data from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.</p>
+
+                <h2>10. International Data Transfer</h2>
+                <p>Your data may be processed on servers in various countries, including the US and EU, through Firebase and Google Cloud Platform. All transfers comply with GDPR and relevant data protection laws.</p>
+
+                <h2>11. Permissions and Access</h2>
+                <p>The app requests the following device permissions:</p>
+                <ul>
+                    <li><strong>Camera:</strong> To capture coffee cup photos for fortune reading (optional)</li>
+                    <li><strong>Photo Library:</strong> To upload existing photos (optional)</li>
+                    <li><strong>Microphone:</strong> For breath detection feature (optional, not recorded)</li>
+                    <li><strong>Internet:</strong> To access cloud services (required)</li>
+                    <li><strong>Notifications:</strong> For reminders and important updates (optional)</li>
+                </ul>
+
+                <h2>12. Premium Subscription and Payments</h2>
+                <p>Premium subscription purchases:</p>
+                <ul>
+                    <li>Processed through Apple App Store or Google Play Store</li>
+                    <li>Payment information managed directly by these platforms</li>
+                    <li>Mystiq does not store credit card or payment information</li>
+                    <li>Subscription management and cancellation done through platform settings</li>
+                    <li>Refund policy subject to App Store and Play Store rules</li>
+                </ul>
+
+                <h2>13. Disclaimer</h2>
+                <p class="highlight-box">
+                    <strong>Important:</strong> Mystiq app is for entertainment and personal development purposes. Tarot, astrology, coffee fortune, and dream interpretations do not replace professional medical, psychological, legal, or financial advice. Always consult experts for important decisions.
+                </p>
+
+                <h2>14. Privacy Policy Changes</h2>
+                <p>This privacy policy may be updated from time to time. When significant changes are made:</p>
+                <ul>
+                    <li>In-app notification will be displayed</li>
+                    <li>You will be notified via email (if email is registered)</li>
+                    <li>"Last Updated" date will be changed</li>
+                    <li>Changes will be published on this page</li>
+                </ul>
+
+                <h2>15. Legal Basis</h2>
+                <p>Our data processing activities are based on the following legal grounds:</p>
+                <ul>
+                    <li><strong>Contract:</strong> Processing necessary for service provision</li>
+                    <li><strong>Consent:</strong> Processing with your explicit consent</li>
+                    <li><strong>Legitimate Interest:</strong> Service improvement and security</li>
+                    <li><strong>Legal Obligation:</strong> Compliance with legal requirements</li>
+                </ul>
+
+                <div class="contact-info">
+                    <h3>📧 Contact Us</h3>
+                    <p>For questions about our privacy policy:</p>
+                    <p><strong>Email:</strong> <a href="mailto:support@mystiq.app">support@mystiq.app</a></p>
+                    <p><strong>Website:</strong> <a href="https://mystiq.app">mystiq.app</a></p>
+                    <p><strong>Support:</strong> <a href="https://mystiq.app/support">mystiq.app/support</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>© 2025 Teamlify. All rights reserved.</strong></p>
+            <p>Mystiq - Tarot, Astrology, Coffee Fortune & Dream Interpretation</p>
+        </div>
+    </div>
+
+    <script>
+        function showLanguage(lang) {
+            // Hide all language sections
+            document.querySelectorAll('.language-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Remove active class from all buttons
+            document.querySelectorAll('.language-toggle button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Show selected language
+            document.getElementById('content-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>
